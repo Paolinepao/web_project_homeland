@@ -1,0 +1,25 @@
+.header {
+  display: block;
+  unicode-bidi: isolate;
+}
+.header__content {
+  margin: 92px auto;
+}
+.header__title {
+  font-weight: 900;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 96px;
+  line-height: 100px;
+  max-width: 720px;
+  font-family: "Inter";
+}
+.header__subtitle {
+  text-align: center;
+  margin: 32px auto 64px;
+  max-width: 720px;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400;
+  font-family: "Inter";
+}
