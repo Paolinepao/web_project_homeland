@@ -1,14 +1,14 @@
 .description {
   margin: auto;
   max-width: 984px;
+  padding: 92px 0 0;
 }
 .description__intro {
   margin: 0;
-  padding: 92px 0 0;
 }
 .description__title {
   max-width: 830px;
-  margin: 0 auto 40px 0;
+  margin: 0 auto 32px 0;
   font-family: "Inter-black";
   font-weight: 900;
   font-size: 54px;
@@ -44,7 +44,7 @@
 @media screen and (max-width: 768px) {
   .description {
     margin: 0 auto;
-    padding: 0 24px 0;
+    padding: 90px 24px 0;
   }
   .description__title {
     font-size: 45px;
@@ -56,7 +56,7 @@
 @media screen and (max-width: 320px) {
   .description {
     margin: 0 auto;
-    padding: 0 16px 0;
+    padding: 64px 16px 0;
   }
   .description__title {
     font-size: 32px;
