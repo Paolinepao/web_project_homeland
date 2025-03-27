@@ -1,0 +1,79 @@
+.places {
+  max-width: 987px;
+  width: 100%;
+  margin: auto;
+}
+.places-grid-container {
+  display: grid;
+  max-width: 987px;
+  height: auto;
+  width: 100%;
+  gap: 48px 40px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto 460px auto;
+  grid-template-areas:
+    "title artists"
+    "photo paragraph1" "photo paragraph1"
+    "botom .";
+}
+.places_title1 {
+  grid-area: title;
+  font-family: "Inter-black";
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  max-width: 460px;
+}
+.places_artists1 {
+  grid-area: artists;
+  max-width: 456px;
+  justify-self: start;
+  align-self: end;
+}
+.place_artists1-title {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 12%;
+  text-transform: uppercase;
+}
+.place_artists1-subtitle {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0%;
+}
+.places_image1 {
+  grid-area: photo;
+  width: 460px;
+  width: 100%;
+  height: fit-content;
+}
+.places_image1:hover {
+  max-width: 460px;
+  width: 100%;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+}
+.places_container-paragraphs {
+  grid-area: paragraph1;
+  width: 484px;
+  width: 100%;
+  height: fit-content;
+}
+.places_container-paragraph1 {
+  margin-top: 0;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  letter-spacing: 0%;
+}
+.places_container-paragraph2 {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  letter-spacing: 0%;
+}
