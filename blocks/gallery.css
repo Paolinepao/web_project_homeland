@@ -12,20 +12,23 @@
 }
 @media screen and (max-width: 768px) {
   .gallery {
-    max-width: 768px;
+    max-width: 720px;
     width: 100%;
-    display: grid;
-    gap: 16px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
+    margin: 64px auto 88px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .gallery {
-    max-width: 320px;
+    margin: auto;
+    max-width: 288px;
     width: 100%;
     display: block;
-    gap: 12px;
+    margin: 38px auto 62px;
+  }
+  .gallery__item {
+    margin-bottom: 12px;
   }
 }
