@@ -31,14 +31,14 @@
   justify-self: start;
   align-self: end;
 }
-.place__artists1-title {
+.places__artists1-title {
   font-family: Inter;
   font-weight: 400;
   font-size: 12px;
   line-height: 100%;
   text-transform: uppercase;
 }
-.place__artists1-subtitle {
+.places__artists1-subtitle {
   font-family: Inter;
   font-weight: 400;
   font-size: 18px;
