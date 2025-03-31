@@ -20,6 +20,18 @@
   }
 }
 
+@media screen and (max-width: 412px) {
+  .gallery {
+    margin: auto;
+    max-width: 325px;
+    width: 100%;
+    display: block;
+    margin: 38px auto 62px;
+  }
+  .gallery__item {
+    margin-bottom: 12px;
+  }
+}
 @media screen and (max-width: 320px) {
   .gallery {
     margin: auto;

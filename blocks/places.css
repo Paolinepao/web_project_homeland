@@ -145,6 +145,40 @@
     margin-top: 70px;
   }
 }
+@media screen and (max-width: 412px) {
+  .places {
+    max-width: 412px;
+    width: 100%;
+    margin: auto;
+    display: block;
+  }
+  .places__grid-container {
+    margin: auto;
+    max-width: 325px;
+    width: 100%;
+    gap: 14px;
+    margin-bottom: 62px;
+    display: block;
+  }
+  .places__title1 {
+    font-size: 32px;
+    line-height: 35px;
+    max-width: 325px;
+  }
+  .places__image1 {
+    width: 412px;
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 32px;
+  }
+  .places__grid-container2 {
+    margin: auto;
+    max-width: 412px;
+    width: 100%;
+    margin-bottom: 62px;
+    display: block;
+  }
+}
 @media screen and (max-width: 320px) {
   .places {
     max-width: 320px;
