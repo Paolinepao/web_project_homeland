@@ -166,14 +166,14 @@
     max-width: 325px;
   }
   .places__image1 {
-    width: 412px;
+    width: 325px;
     width: 100%;
     height: fit-content;
     margin-bottom: 32px;
   }
   .places__grid-container2 {
     margin: auto;
-    max-width: 412px;
+    max-width: 325px;
     width: 100%;
     margin-bottom: 62px;
     display: block;
